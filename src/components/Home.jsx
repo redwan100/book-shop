@@ -7,10 +7,13 @@ const Home = () => {
   return (
     <div className="my-3 grid gap-4 md:grid-cols-[1fr_1fr] items-center justify-between">
       {/* left  */}
-      <div className='space-y-4'>
-        <p className='bg-yellow-400 w-max px-3 rounded-full font-semibold uppercase text-sm'>on sale</p>
-        <h1 className='text-4xl md:text-6xl font-semibold'>
-          A reader lives a thousand lives <br /> <span className='text-rose-500'>before he dies</span>
+      <div className="space-y-4">
+        <p className="bg-yellow-400 w-max px-3 rounded-full font-semibold uppercase text-sm">
+          on sale
+        </p>
+        <h1 className="text-4xl md:text-6xl font-semibold">
+          A reader lives a thousand lives <br />{" "}
+          <span className="text-rose-500">before he dies</span>
         </h1>
         <p>
           Books are a uniquely portable magic. Books serve to show a man that
@@ -20,7 +23,7 @@ const Home = () => {
         </p>
 
         <div>
-          <button className='inline-flex items-center gap-2 border bg-rose-500 text-white py-2 px-3 rounded-md font-semibold hover:bg-rose-600'>
+          <button className="inline-flex items-center gap-2 border bg-rose-500 text-white py-2 px-3 rounded-md font-semibold hover:bg-rose-600 mr-2">
             Visit Store{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +40,9 @@ const Home = () => {
               />
             </svg>
           </button>
-          <p>Learn More</p>
+          <button className="border border-red-500 text-red-500 py-2 px-3 rounded-md font-semibold">
+            Learn More
+          </button>
         </div>
       </div>
 
