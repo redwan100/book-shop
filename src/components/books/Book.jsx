@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Book = ({ isbn13, title, image, price, subtitle }) => {
   return (
-    <Link to={`/book/${isbn13}`}>
+    <Link to={`/book/${isbn13}`} state={title}>
       <div
         className="border
     border-slate-100 shadow-sm relative rounded-md overflow-hidden group:"

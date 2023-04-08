@@ -31,18 +31,18 @@ const Books = () => {
 
   return (
     <div className="my-4">
-      <form action="" className="flex w-[80%] mx-auto">
+      <form action="" className="flex w-[50%] mx-auto bg-rose-100">
         <input
           onChange={(e) => setSearchQuery(e.target.value)}
           value={searchQuery}
           type="text"
           placeholder="Search here..."
-          className="border-b w-full bg-teal-50 p-2 outline-none border border-teal-400 rounded-tl-md rounded-bl-md"
+          className="border-b w-full bg-rose-50 p-2 outline-none border border-rose-400 text-rose-600 rounded-tl-md rounded-bl-md"
         />
         <button
           onClick={handleSearch}
           type="submit"
-          className="bg-teal-400 py-2 px-4 font-medium text-lg text-white"
+          className="bg-rose-400 py-2 px-4 font-medium text-lg text-white"
         >
           Search
         </button>
